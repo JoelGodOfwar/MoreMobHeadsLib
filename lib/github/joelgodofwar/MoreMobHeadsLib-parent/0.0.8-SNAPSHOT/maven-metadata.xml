@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>lib.github.joelgodofwar</groupId>
+  <artifactId>MoreMobHeadsLib-parent</artifactId>
+  <versioning>
+    <lastUpdated>20230609063711</lastUpdated>
+    <snapshot>
+      <timestamp>20230609.063711</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.8-20230609.063711-1</value>
+        <updated>20230609063711</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.0.8-SNAPSHOT</version>
+</metadata>
