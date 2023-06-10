@@ -3,27 +3,27 @@
   <groupId>lib.github.joelgodofwar</groupId>
   <artifactId>MoreMobHeadsLib-abstraction</artifactId>
   <versioning>
-    <lastUpdated>20230610015103</lastUpdated>
+    <lastUpdated>20230610033443</lastUpdated>
     <snapshot>
-      <timestamp>20230610.015103</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20230610.033443</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.0-20230610.015103-1</value>
-        <updated>20230610015103</updated>
+        <value>0.1.0-20230610.033443-3</value>
+        <updated>20230610033443</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>0.1.0-20230610.015103-1</value>
-        <updated>20230610015103</updated>
+        <value>0.1.0-20230610.033443-3</value>
+        <updated>20230610033443</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.1.0-20230610.015103-1</value>
-        <updated>20230610015103</updated>
+        <value>0.1.0-20230610.033443-3</value>
+        <updated>20230610033443</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
