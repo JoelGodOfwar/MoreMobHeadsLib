@@ -3,16 +3,16 @@
   <groupId>lib.github.joelgodofwar</groupId>
   <artifactId>MoreMobHeadsLib-parent</artifactId>
   <versioning>
-    <lastUpdated>20230610021431</lastUpdated>
+    <lastUpdated>20230610033443</lastUpdated>
     <snapshot>
-      <timestamp>20230610.021431</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20230610.033443</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.1.0-20230610.021431-3</value>
-        <updated>20230610021431</updated>
+        <value>0.1.0-20230610.033443-4</value>
+        <updated>20230610033443</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
