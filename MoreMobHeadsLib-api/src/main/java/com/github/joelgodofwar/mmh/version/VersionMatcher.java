@@ -5,7 +5,8 @@ import org.bukkit.Bukkit;
 import com.github.joelgodofwar.mmh.VersionWrapper;
 
 public class VersionMatcher {
-	 public VersionWrapper match() {
+	 @SuppressWarnings("deprecation")
+	public VersionWrapper match() {
 	        final String serverVersion = Bukkit.getServer().getClass().getPackage().getName().split("\\.")[3].substring(1);
 	        try {
 	        	//System.out.println(getClass().getPackage().getName() + ".Wrapper_" + serverVersion);
