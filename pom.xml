@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>lib.github.joelgodofwar</groupId>
   <artifactId>MoreMobHeadsLib-parent</artifactId>
-  <version>0.1.4-SNAPSHOT</version>
+  <version>0.1.5-SNAPSHOT</version>
   <name>MoreMobHeadsLib</name>
   <description>A Library for MoreMobHeads.</description>
   <packaging>pom</packaging>
   <properties>
-    <currentVersion>0.1.4-SNAPSHOT</currentVersion>
+    <currentVersion>0.1.5-SNAPSHOT</currentVersion>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <repository-owner>JoelGodOfwar</repository-owner>
 	<repository-name>MoreMobHeadsLib</repository-name>
