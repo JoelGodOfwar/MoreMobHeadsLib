@@ -6,6 +6,7 @@ import java.util.logging.Logger;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
+import org.bukkit.entity.Bee;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Frog;
@@ -13,6 +14,7 @@ import org.bukkit.entity.Panda;
 import org.bukkit.entity.Panda.Gene;
 //import org.bukkit.inventory.meta.SkullMeta;
 import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 import org.bukkit.inventory.meta.SkullMeta;
 
 import com.github.joelgodofwar.mmh.VersionWrapper;
@@ -85,7 +87,18 @@ public final class Wrapper_1_20_R1 implements VersionWrapper {
 			soundType = "primed";
 			break;
 		case BEE:
-			soundType = "loop";
+			Bee daBee = (Bee) entity;
+			int daAnger = daBee.getAnger();
+			boolean daNectar = daBee.hasNectar();
+			if(daAnger >= 1&&daNectar == true){
+				soundType = "loop_aggressive";
+			}else if(daAnger >= 1&&daNectar == false){
+				soundType = "loop_aggressive";
+			}else if(daAnger == 0&&daNectar == true){
+				soundType = "pollinate";
+			}else if(daAnger == 0&&daNectar == false){
+				soundType = "loop";
+			}
 			break;
 		case AXOLOTL:
 			soundType = "idle_air";
@@ -113,6 +126,15 @@ public final class Wrapper_1_20_R1 implements VersionWrapper {
 		case TRADER_LLAMA:
 			name = "LLAMA";
 			soundType = "ambient";
+			break;
+		case WITHER:
+			ItemMeta itemMeta = item.getItemMeta();
+			String displayName = itemMeta.getDisplayName();
+			if (displayName.contains("projectile")) {
+				soundType = "shoot";
+		    } else {
+		    	soundType = "ambient";
+		    }
 			break;
 		default:
 			soundType = "ambient";
@@ -179,6 +201,15 @@ public final class Wrapper_1_20_R1 implements VersionWrapper {
 		case TRADER_LLAMA:
 			name = "LLAMA";
 			soundType = "ambient";
+			break;
+		case WITHER:
+			ItemMeta itemMeta = item.getItemMeta();
+			String displayName = itemMeta.getDisplayName();
+			if (displayName.contains("projectile")) {
+				soundType = "shoot";
+		    } else {
+		    	soundType = "ambient";
+		    }
 			break;
 		default:
 			soundType = "ambient";
