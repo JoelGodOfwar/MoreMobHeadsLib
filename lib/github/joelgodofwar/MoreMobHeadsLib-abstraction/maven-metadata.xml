@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>lib.github.joelgodofwar</groupId>
-  <artifactId>MoreMobHeadsLib-parent</artifactId>
+  <artifactId>MoreMobHeadsLib-abstraction</artifactId>
   <versioning>
     <versions>
       <version>0.1.6-SNAPSHOT</version>

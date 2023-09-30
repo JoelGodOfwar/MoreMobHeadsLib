@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata modelVersion="1.1.0">
   <groupId>lib.github.joelgodofwar</groupId>
-  <artifactId>MoreMobHeadsLib-parent</artifactId>
+  <artifactId>MoreMobHeadsLib-abstraction</artifactId>
   <versioning>
     <lastUpdated>20230930052927</lastUpdated>
     <snapshot>
@@ -11,6 +11,17 @@
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
+        <value>0.1.6-20230930.052927-4</value>
+        <updated>20230930052927</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.1.6-20230930.052927-4</value>
+        <updated>20230930052927</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
         <value>0.1.6-20230930.052927-4</value>
         <updated>20230930052927</updated>
       </snapshotVersion>
